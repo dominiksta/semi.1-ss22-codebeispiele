@@ -65,7 +65,7 @@ to_predict_1 = {
 }
 to_predict_2 = {
     'cloud'  : 5,  'performance': 3,  'scalable': 4,
-    'connect': 20,  'coverage'   : 20,  'service' : 20,
+    'connect': 20,  'coverage'  : 20, 'service' : 20,
 }
 
 to_predict_1 = np.array(list(to_predict_1.values())).reshape(1, -1)
